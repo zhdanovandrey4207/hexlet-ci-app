@@ -4,6 +4,6 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - run: make setup
-      - run: make test
-      - run: make lint
+      - run: setup
+      - run: test
+      - run: lint
